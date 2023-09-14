@@ -1,0 +1,25 @@
+
+hader{
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    text-decoration: none;
+}
+
+.header{
+    background-color: lightblue;
+    border-radius: 0 0 50px 50px;
+}
+
+.header img{
+    width: auto;
+    height: 100px;
+    padding: 5px;
+}
