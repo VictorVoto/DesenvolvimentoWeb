@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário Fatec</title>
+</head>
+<body>
+    <h2>Roupas XikeXou</h2>
+    <h3>Cadastro</h3>
+    <form>
+
+        <fieldset>
+            <legend>Dados pessoais</legend>
+            <label for="nome">Nome: </label>
+            <input type="text" id="nome" name="nomeCliente" placeholder="Nome" maxlength="30" minlength="5" size="20" required>
+            <br><br>
+            <label for="senha">Senha: </label>
+            <input type="password" id="senha" name="senhaCliente" placeholder="Senha" minlength="3" maxlength="20" size="15" required>
+        </fieldset>
+
+        <fieldset>
+            <legend>Dados de cobrança</legend>
+            <h4>Endereço</h4>
+            <label for="rua">Rua: </label>
+            <input type="text" id="endereco" name="ruaCliente" placeholder="Rua">
+                <br><br>
+
+            <label for="numero">Número: </label>
+            <input type="text" id="numero" name="numeroCasaCliente" placeholder="Nº">
+                <br><br>
+
+            <label for="cidade">Cidade: </label>
+            <input type="text" id="cidade" name="cidadeCliente" value="Votorantim" disabled>
+            <br><br>
+
+            
+            <label for="estado">Estado: </label>
+            <input type="text" id="estado" name="estadoCliente" placeholder="Estado">
+            <br><br>
+
+            <h4>Dados bancários</h4>
+
+            <label for="numCartao">Número do cartão</label>
+            <input type="text" id="numCartao" name="numCartao">
+            <br><br>
+
+            <label for="nomeCartao">Nome do títular: </label>
+            <input type="text" id="nomeCartao" name="nomeCartao">
+            <br><br>
+
+            <label for="cvvCartao">CVV</label>
+            <input type="text" id="cvvCartao" name="cvvCartao">
+            <br><br>
+
+            <label for="validadeCartao">Validade</label>
+            <input type="text" id="validadeCartao" name="validadeCartao">
+            <br><br>
+        </fieldset>
+
+        <br>
+        <input type="submit" value="Cadastrar">
+        
+    </form>
+</body>
+</html>
